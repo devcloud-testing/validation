@@ -1,13 +1,12 @@
-# A simple script to do MAthematical calaculation
+# A simple script to do display message and logo
 import time
-
 from pywebio.input import *
 from pywebio.output import *
 
 
 def mathemticaloperation():
-    put_text('Future is here')
-    img = open('C://automation//Python_project//logo.JPG', 'rb').read()
+    put_text('DEVCLOUD')
+    img = open("logo.JPG", 'rb').read()
     put_image(img, width='1080px')
     time.sleep(30)
 
