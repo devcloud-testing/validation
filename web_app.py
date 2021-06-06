@@ -6,7 +6,7 @@ from pywebio.output import *
 
 def mathemticaloperation():
     put_text('DEVCLOUD')
-    img = open("logo.JPG", 'rb').read()
+    img = open("intel.JPG", 'rb').read()
     put_image(img, width='1080px')
     time.sleep(30)
 
